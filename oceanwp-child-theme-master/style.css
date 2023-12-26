@@ -26,6 +26,10 @@ p {
     font-weight: 400;
 }
 
+.color {
+    background-color: #3b8e46;
+}
+
 /* header */
 
 #site-logo #site-logo-inner {
@@ -197,12 +201,11 @@ p {
 	padding: 8px;
     border-radius: 7px;
     height: 71px;
-    
+    margin-top: 8px;
 }
 
 #wpcf7-f596-p16-o5 label {
     color: white;
-    padding-bottom: 20px;
 }
 
 #wpcf7-f596-p16-o5 input[type="submit"] {
