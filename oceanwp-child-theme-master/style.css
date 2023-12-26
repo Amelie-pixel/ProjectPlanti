@@ -1,0 +1,234 @@
+/*
+Theme Name: OceanWP Child Theme
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme. Sample child theme.
+Author: OceanWP
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+
+
+/* body */
+
+h2 {
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+.color {
+background-color: #3b8e46;
+}
+/* header */
+#site-logo #site-logo-inner {
+    display: table-cell;
+    vertical-align: middle;
+    height: 74px;
+    padding-left: 50px;
+}
+
+#menu-item-18 .menu-link {
+    background-color: #DC9F96;
+}
+#site-navigation-wrap .dropdown-menu >li >a {
+    padding: 0 110px;
+}
+/* premiere page */
+
+.taille-boisson {
+    width: 45%;
+    height: 100%;
+    top: 80px;
+    left: 27.3%;
+    position: relative;
+}
+
+.taille-energieplante {
+    width: 380px;
+    height: 36px;
+    top: 29px;
+    left: 4px;
+    position: relative;
+    line-height: 24px;
+    padding-bottom: 83px;
+}
+
+.wp-block-gallery.has-nested-images figure.wp-block-image img {
+    padding: 15px;
+}
+
+.wp-block-button__link {
+    padding: calc(0.667em + 3px) calc(1.333em + 34px);
+}
+
+.taille-gallerie {
+    width: 44%;
+    height: 100%;
+}
+
+.taille-noussavons {
+    top: -20px;
+    position: relative;
+}
+
+.taille-canette {
+    background-color: white;
+    position: relative;
+    top: 20px;
+    margin-top: -20px;
+}
+
+.taille-personne {
+    width: 85%;
+}
+.taille-personnetexte {
+    position: relative;
+    top: -16px;
+}
+
+/* deuxieme page */
+
+.taille-nousrencontrer {
+    width: 55%;
+    left: 15.5%;
+    position: relative;
+}
+
+.titre-nousrencontrer {
+    right: 7%;
+    position: relative;
+}
+
+.fleurronde {
+    position: relative;
+    left: 270px;
+    top: -107px;
+}
+
+.feuille {
+    position: relative;
+    left: 130px;
+    top: 127px;
+}
+
+.taille-equipe {
+    width: 50%;
+    position: relative;
+    left: 17.4%;
+}
+
+.fleurbourgeon {
+    position: relative;
+    left: 73%;
+    top: 380px;
+    z-index: 1;
+}
+
+.taille-canette2 {
+    position: relative;
+    top: 20px;
+}
+
+/* troisieme page */
+
+.wp-block-separator.is-style-wide:not(.size-full) {
+    max-width: 846px;
+    height: 1px;
+}
+
+.votrecommande {
+    position: relative;
+    left: 27.5%;
+}
+
+.icone {
+    width: 44.5%;
+    position: relative;
+    left: 27.7%;
+}
+
+.icone2 {
+    width: 44.5%;
+    position: relative;
+    left: 30.5%;
+}
+
+.vosinformation {
+    position: relative;
+    left: 56%;
+}
+.livraison {
+    position: relative;
+    left: 3%;
+}
+
+#wpcf7-f560-p16-o5 {
+    width: 100%;
+    padding-left: 56%;
+}
+
+#wpcf7-f563-p14-o1 {
+    width: 100%;
+    padding-left: 8.5%;
+    position: relative;
+    z-index: 2;
+}
+
+#wpcf7-f560-p16-o5 input[type="text"],#wpcf7-f552-p16-o6 input[type="text"],#wpcf7-f563-p14-o1 input[type="text"],#wpcf7-f560-p16-o5 input[type="email"] ,#wpcf7-f552-p16-o6 input[type="email"] ,#wpcf7-f563-p14-o1 input[type="email"],#wpcf7-f552-p16-o6 textarea,#wpcf7-f560-p16-o5 textarea,#wpcf7-f563-p14-o1 textarea {
+	width: 383px;
+    background-color: white;
+    box-shadow: 0px 4px 14px 0px #0000000A;
+	padding: 8px;
+    border-radius: 7px;
+    height: 71px;
+    
+}
+#wpcf7-f552-p16-o6 {
+    width: 100%;
+    padding-left: 3%;
+}
+
+#wpcf7-f560-p16-o5 input[type="submit"] {
+    margin-left: 80%;
+    margin-top: 20px;
+    width: 198px;
+    height: 55px;
+    background-color: #E0B9B4;
+    border-radius: 5px;
+}
+#wpcf7-f563-p14-o1 input[type="submit"] {
+    width: 198px;
+    height: 55px;
+    background-color: #E0B9B4;
+    border-radius: 5px;
+    margin-left: 8%;
+    margin-top: 20px;
+}
+#wpcf7-f563-p14-o1 textarea {
+    height: 237px;
+}
+
+form input[type=number] {
+    max-width: 50px;
+    padding: 0 0 0 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+#wpcf7-f552-p16-o6 label,#wpcf7-f560-p16-o5 label{
+    color: white;
+}
+.ligne {
+    position: relative;
+    bottom: 60px;
+}
+/*wp_nav_menu_items
+is_user_logged_in
