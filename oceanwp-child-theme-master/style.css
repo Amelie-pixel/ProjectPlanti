@@ -14,7 +14,7 @@ Version: 1.0
 
 /* body */
 
-h2 {
+h1,h2 {
     font-weight: 800;
 }
 
@@ -102,19 +102,19 @@ p {
 
 .taille-nousrencontrer {
     width: 55%;
-    left: 15.5%;
-    position: relative;
+    margin-left: 21%;
 }
 
 .titre-nousrencontrer {
     right: 7%;
     position: relative;
+    margin-top: 15%;
 }
 
 .fleurronde {
     position: relative;
-    left: 270px;
-    top: -107px;
+    left: 70%;
+    Top: 20%;
 }
 
 .feuille {
@@ -123,10 +123,20 @@ p {
     top: 127px;
 }
 
+.equipe {
+    margin-top: 8%;
+}
+
 .taille-equipe {
     width: 50%;
     position: relative;
     left: 17.4%;
+    padding-bottom: 2.5%;
+}
+
+.nouscontacter {
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .fleurbourgeon {
@@ -142,11 +152,6 @@ p {
 }
 
 /* troisieme page */
-
-.wp-block-separator.is-style-wide:not(.size-full) {
-    max-width: 846px;
-    height: 1px;
-}
 
 .votrecommande {
     position: relative;
@@ -191,7 +196,7 @@ p {
 
 #wpcf7-f596-p16-o5{
     width: 100%;
-    margin-left: 27.7%;
+    margin-left: 27.5%;
 }
 
 #wpcf7-f563-p14-o1 input[type="text"],#wpcf7-f563-p14-o1 input[type="email"],#wpcf7-f563-p14-o1 textarea,#wpcf7-f596-p16-o5 input[type="text"],#wpcf7-f596-p16-o5 input[type="email"],#wpcf7-f596-p16-o5 textarea {
@@ -215,6 +220,7 @@ p {
     border-radius: 5px;
     margin-left: 17.5%;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 #wpcf7-f563-p14-o1 input[type="submit"] {
@@ -224,6 +230,7 @@ p {
     border-radius: 5px;
     margin-left: 8%;
     margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 #wpcf7-f563-p14-o1 textarea {
@@ -237,10 +244,138 @@ form input[type=number] {
     background-color: white;
 }
 
-.ligne {
+.ligneVerticale {
     position: relative;
-    bottom: 60px;
+    transform: rotate(90deg);
+    bottom: 410px;
+    width: 470px;
+    height: 1px;
+    right: 0.2%;
+}
+
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+    width: 850px;
 }
 /*wp_nav_menu_items
 is_user_logged_in */
 
+/* tablette */
+
+@media all and (min-width: 1024px) and (max-width: 1439px) {
+    .fleurronde {
+        position: relative;
+        left: 60%;
+        bottom: 50%;
+    }
+}
+
+@media (max-width: 769px) {
+
+    /* deuxieme page */
+
+    .taille-nousrencontrer {
+        width: 55%;
+        margin-left: 24%;
+		position: relative;
+		top: 80px;
+    }
+
+    .equipe {
+        margin-top: 40%;
+		padding-left: 20px
+    }
+
+    .titre-nousrencontrer {
+        left: 1%;
+        position: relative;
+    }
+
+    .taille-equipe {
+        width: 50%;
+        position: relative;
+        left: 3%;
+        top: 100px;
+    }
+
+    .feuille {
+        position: relative;
+        left: 240px;
+        top: 34px;
+    }
+
+    .nouscontacter {
+        margin-top: 15%;
+        margin-bottom: 1%;
+    }
+
+    #wpcf7-f563-p14-o1 {
+        padding-left: 25%;
+        position: relative;
+        bottom: 50px
+    }
+
+    #wpcf7-f563-p14-o1 input[type="submit"] {
+        margin-left: 16%;
+    }
+
+    .fleurbourgeon {
+        position: relative;
+        left: 1%;
+        top: 580px;
+        z-index: 1;
+        padding-right: 396px;
+    }
+    
+    /* troisieme page */
+
+	.icone {
+        width: 35%;
+        margin-left: 3.5%
+	}
+
+    .vosinformation {
+        position: relative;
+        left: 8%;
+				top: 150%;
+        font-size: 20px;
+	}
+
+	.livraison {
+        position: relative;
+        left: 56%;
+        top: 1%;
+	}
+
+    .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+        width: 550px;
+    }
+    
+    .ligneVerticale {
+        bottom: 426px;
+          width: 427px;
+    }
+
+	#wpcf7-f596-p16-o5{
+        width: 100%;
+        margin-left: 8.5%;
+        position: relative;
+        bottom: 40px;
+	}
+
+	#wpcf7-f596-p16-o5 input[type="text"],#wpcf7-f596-p16-o5 input[type="email"],#wpcf7-f596-p16-o5 textarea {
+	    width: 80%;
+	}
+
+	#wpcf7-f596-p16-o5 input[type="submit"] {
+		margin-left: 27%;
+	}
+
+	.colonnes {
+		column-gap: 20px;
+	}
+}
+
+@media (max-width: 479px) {
+
+    
+}
