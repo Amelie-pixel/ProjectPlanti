@@ -36,14 +36,16 @@ p {
     padding-left: 50px;
 }
 
-#menu-item-18 .menu-link {
+#menu-item-18 {
     background-color: #DC9F96;
+    padding: 0 32px;
 }
-
-#site-navigation-wrap .dropdown-menu >li >a {
-    padding: 0 110px;
+#menu-item-18 .text-wrap {
+    color: white;
 }
-
+#site-navigation-wrap .dropdown-menu >li >a:hover, .oceanwp-mobile-menu-icon a:hover, #searchform-header-replace-close:hover {
+    color: #DC9F96;
+}
 /* premiere page */
 
 .taille-boisson {
@@ -102,13 +104,14 @@ p {
 
 .taille-nousrencontrer {
     width: 55%;
-    margin-left: 21%;
+    margin-left: 15.5%;
 }
 
 .titre-nousrencontrer {
     right: 7%;
     position: relative;
     margin-top: 15%;
+    font-size: 38px;
 }
 
 .fleurronde {
@@ -153,9 +156,14 @@ p {
 
 /* troisieme page */
 
+.commander {
+    font-size: 38px;
+}
+
 .votrecommande {
     position: relative;
     left: 27.5%;
+    font-size: 30px;
 }
 
 .icone {
@@ -173,11 +181,13 @@ p {
 .vosinformation {
     position: relative;
     left: 56%;
+    font-size: 30px;
 }
 
 .livraison {
     position: relative;
     left: 3%;
+    font-size: 30px;
 }
 
 .colonnes {
@@ -245,12 +255,12 @@ form input[type=number] {
 }
 
 .ligneVerticale {
-    position: relative;
-    transform: rotate(90deg);
-    bottom: 410px;
-    width: 470px;
-    height: 1px;
-    right: 0.2%;
+  position: relative;
+  transform: rotate(90deg);
+  top: 215px;
+  width: 470px;
+  height: 1px;
+  right: 240px;
 }
 
 .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
@@ -272,6 +282,21 @@ is_user_logged_in */
 @media (max-width: 769px) {
 
     /* deuxieme page */
+
+    .titre-nousrencontrer {
+        right: 7%;
+        position: relative;
+        margin-top: 15%;
+        font-size: 25px;
+
+    }
+
+    .fleurronde {
+        position: relative;
+        left: 7%;
+        Top: 155%;
+        width: 15%
+    }
 
     .taille-nousrencontrer {
         width: 55%;
@@ -336,14 +361,14 @@ is_user_logged_in */
     .vosinformation {
         position: relative;
         left: 8%;
-				top: 150%;
-        font-size: 20px;
+		top: 210%;
+        font-size: 30px;
 	}
 
 	.livraison {
         position: relative;
         left: 56%;
-        top: 1%;
+		top: -50px;
 	}
 
     .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
@@ -351,16 +376,17 @@ is_user_logged_in */
     }
     
     .ligneVerticale {
-        bottom: 426px;
-          width: 427px;
+        right: 0.5px;
+        top: 236px;
+        width: 427px;
     }
 
-	#wpcf7-f596-p16-o5{
+    #wpcf7-f596-p16-o5{
         width: 100%;
         margin-left: 8.5%;
         position: relative;
-        bottom: 40px;
-	}
+        bottom: 90px;
+    }
 
 	#wpcf7-f596-p16-o5 input[type="text"],#wpcf7-f596-p16-o5 input[type="email"],#wpcf7-f596-p16-o5 textarea {
 	    width: 80%;
@@ -375,7 +401,66 @@ is_user_logged_in */
 	}
 }
 
-@media (max-width: 479px) {
+@media (max-width: 481px) {
 
+    /* troisieme page */
+
+    .commander {
+		font-size: 23px;
+	}
+
+	.votrecommande {
+        position: relative;
+        left: 13%;
+        font-size: 23px;
+    }
+
+    .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+        width: 180px;
+    }
+
+    .icone {
+        width: 60%;
+        position: relative;
+        left: 17.7%;
+    }
     
+    .icone2 {
+        left: 25.5%;
+    }
+
+	.colonnes {
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        column-gap:80px;
+    }
+
+	.ligneVerticale {
+       display: none; 
+    }
+	
+    .livraison {
+        position: relative;
+        left: 32%;
+        font-size: 23px;
+    }
+
+	.vosinformation {
+        position: relative;
+        left: 17%;
+        font-size: 23px;
+		top: 20px
+    }  
+
+	#wpcf7-f596-p16-o5 input[type="submit"] {
+		margin-left: 7%;
+		margin-top: 20%;
+	}
+
+    #wpcf7-f596-p16-o5{
+        margin-left: 9.5%;
+
+}
+
 }
