@@ -31,3 +31,27 @@ function oceanwp_child_enqueue_parent_style() {
 }
 
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
+
+add_filter('wp_nav_menu_items', 'link_admin_menu_oceanwp', 10, 2);
+
+function link_admin_menu_oceanwp($items, $args) {
+    if (is_user_logged_in() && current_user_can('manage_options') && $args->theme_location == 'main_menu') {
+        $admin_link = '<li><a href="' . esc_url(get_admin_url()) . '">Admin</a></li>';
+        
+        // l'emplacement où vous souhaitez insérer le lien Admin dans le menu existant
+        $insert_position = 1; // Cela insère le lien à la deuxième position (index 1) dans le menu.
+
+        // Convertissez la chaîne $items en un tableau
+        $menu_items = preg_split('/<\/li>/', $items);
+
+        //le lien Admin à l'emplacement spécifié
+        array_splice($menu_items, $insert_position, 0, $admin_link);
+
+        // Rejoigne à nouveau le tableau en une chaîne
+        $items = implode('</li>', $menu_items);
+    }
+
+    return $items;
+}
+
+?> 
