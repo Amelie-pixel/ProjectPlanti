@@ -38,14 +38,17 @@ p {
 
 #menu-item-18 {
     background-color: #DC9F96;
-    padding: 0 32px;
+    padding: 0 29px;
 }
+
 #menu-item-18 .text-wrap {
     color: white;
 }
+
 #site-navigation-wrap .dropdown-menu >li >a:hover, .oceanwp-mobile-menu-icon a:hover, #searchform-header-replace-close:hover {
     color: #DC9F96;
 }
+
 /* premiere page */
 
 .taille-boisson {
@@ -54,16 +57,25 @@ p {
     top: 80px;
     left: 27.3%;
     position: relative;
+    font-size: 38px;
+}
+
+.energie {
+    font-size: 30px;
 }
 
 .taille-energieplante {
-    width: 380px;
+    width: 390px;
     height: 36px;
     top: 29px;
     left: 4px;
     position: relative;
     line-height: 24px;
     padding-bottom: 83px;
+}
+
+.gouts {
+    font-size: 30px;
 }
 
 .wp-block-gallery.has-nested-images figure.wp-block-image img {
@@ -79,16 +91,13 @@ p {
     height: 100%;
 }
 
+.ce-quil-en-pensent {
+    font-size: 30px;
+}
+
 .taille-noussavons {
     top: -20px;
     position: relative;
-}
-
-.taille-canette {
-    background-color: white;
-    position: relative;
-    top: 20px;
-    margin-top: -20px;
 }
 
 .taille-personne {
@@ -100,12 +109,14 @@ p {
     top: -16px;
 }
 
-/* deuxieme page */
-
-.taille-nousrencontrer {
-    width: 55%;
-    margin-left: 15.5%;
+.taille-canette {
+    background-color: white;
+    position: relative;
+    top: 20px;
+    margin-top: -20px;
 }
+
+/* deuxieme page */
 
 .titre-nousrencontrer {
     right: 7%;
@@ -114,20 +125,20 @@ p {
     font-size: 38px;
 }
 
+.taille-nousrencontrer {
+    width: 55%;
+    margin-left: 15.5%;
+}
+
 .fleurronde {
     position: relative;
     left: 70%;
     Top: 20%;
 }
 
-.feuille {
-    position: relative;
-    left: 130px;
-    top: 127px;
-}
-
 .equipe {
     margin-top: 8%;
+    margin-bottom: 3%;
 }
 
 .taille-equipe {
@@ -137,15 +148,43 @@ p {
     padding-bottom: 2.5%;
 }
 
+.feuille {
+    position: relative;
+    left: 130px;
+    top: 127px;
+}
+
 .nouscontacter {
     margin-top: 4%;
     margin-bottom: 4%;
 }
 
+#wpcf7-f563-p14-o1 {
+    width: 100%;
+    padding-left: 8.5%;
+    position: relative;
+    z-index: 2;
+}
+
+#wpcf7-f563-p14-o1 input[type="submit"] {
+    width: 198px;
+    height: 55px;
+    background-color: #E0B9B4;
+    border-radius: 5px;
+    margin-left: 8%;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+#wpcf7-f563-p14-o1 textarea {
+    height: 237px;
+}
+
+
 .fleurbourgeon {
     position: relative;
     left: 73%;
-    top: 380px;
+    top: 320px;
     z-index: 1;
 }
 
@@ -178,6 +217,13 @@ p {
     left: 30.5%;
 }
 
+form input[type=number] {
+    max-width: 50px;
+    padding: 0 0 0 10px;
+    margin-left: 15px;
+    background-color: white;
+}
+
 .vosinformation {
     position: relative;
     left: 56%;
@@ -197,16 +243,13 @@ p {
 	column-gap:80px;
 }
 
-#wpcf7-f563-p14-o1 {
-    width: 100%;
-    padding-left: 8.5%;
-    position: relative;
-    z-index: 2;
-}
-
 #wpcf7-f596-p16-o5{
     width: 100%;
     margin-left: 27.5%;
+}
+
+#wpcf7-f596-p16-o5 label {
+    color: white;
 }
 
 #wpcf7-f563-p14-o1 input[type="text"],#wpcf7-f563-p14-o1 input[type="email"],#wpcf7-f563-p14-o1 textarea,#wpcf7-f596-p16-o5 input[type="text"],#wpcf7-f596-p16-o5 input[type="email"],#wpcf7-f596-p16-o5 textarea {
@@ -219,10 +262,6 @@ p {
     margin-top: 8px;
 }
 
-#wpcf7-f596-p16-o5 label {
-    color: white;
-}
-
 #wpcf7-f596-p16-o5 input[type="submit"] {
     width: 198px;
     height: 55px;
@@ -231,27 +270,6 @@ p {
     margin-left: 17.5%;
     margin-top: 20px;
     margin-bottom: 50px;
-}
-
-#wpcf7-f563-p14-o1 input[type="submit"] {
-    width: 198px;
-    height: 55px;
-    background-color: #E0B9B4;
-    border-radius: 5px;
-    margin-left: 8%;
-    margin-top: 20px;
-    margin-bottom: 80px;
-}
-
-#wpcf7-f563-p14-o1 textarea {
-    height: 237px;
-}
-
-form input[type=number] {
-    max-width: 50px;
-    padding: 0 0 0 20px;
-    margin-left: 20px;
-    background-color: white;
 }
 
 .ligneVerticale {
@@ -266,10 +284,10 @@ form input[type=number] {
 .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
     width: 850px;
 }
-/*wp_nav_menu_items
-is_user_logged_in */
 
-/* tablette */
+
+
+/* desktop */
 
 @media all and (min-width: 1024px) and (max-width: 1439px) {
     .fleurronde {
@@ -279,7 +297,15 @@ is_user_logged_in */
     }
 }
 
+/* tablette*/
+
 @media (max-width: 769px) {
+
+    /* premiere page */
+
+    .taille-boisson {
+        font-size: 30px;
+    }
 
     /* deuxieme page */
 
@@ -291,13 +317,6 @@ is_user_logged_in */
 
     }
 
-    .fleurronde {
-        position: relative;
-        left: 7%;
-        Top: 155%;
-        width: 15%
-    }
-
     .taille-nousrencontrer {
         width: 55%;
         margin-left: 24%;
@@ -305,14 +324,21 @@ is_user_logged_in */
 		top: 80px;
     }
 
-    .equipe {
-        margin-top: 40%;
-		padding-left: 20px
+    .fleurronde {
+        position: relative;
+        left: 7%;
+        Top: 155%;
+        width: 15%
     }
 
     .titre-nousrencontrer {
         left: 1%;
         position: relative;
+    }
+
+    .equipe {
+        margin-top: 40%;
+		padding-left: 20px
     }
 
     .taille-equipe {
@@ -345,10 +371,9 @@ is_user_logged_in */
 
     .fleurbourgeon {
         position: relative;
-        left: 1%;
-        top: 580px;
+        left: -24%;
+        top: 490px;
         z-index: 1;
-        padding-right: 396px;
     }
     
     /* troisieme page */
@@ -401,8 +426,116 @@ is_user_logged_in */
 	}
 }
 
+/* telephone */
+
 @media (max-width: 481px) {
 
+    /* premiere page */
+
+    .taille-boisson {
+        font-size: 25px;
+		width: 100%;
+		left: 1%;
+    }
+	
+	.energie {
+        font-size: 28px;
+        padding-top:30%
+    }
+
+	.taille-energieplante {
+        width: 250px;
+        top: 39px;
+        padding-bottom: 250px;
+    }
+
+	.gouts {
+        font-size: 28px;
+    }
+
+	.taille-gallerie {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ce-quil-en-pensent {
+        font-size: 26px;
+    }
+
+    .taille-noussavons {
+		width: 80%;
+        top: 1px;
+		left: 27px;
+        position: relative;
+    }
+    
+	.taille-personnetexte {
+        position: relative;
+        top: 1px;
+    }
+
+    /* deuxieme page */
+
+    .titre-nousrencontrer {
+        right: 7%;
+        position: relative;
+        margin-top: 15%;
+        font-size: 21px;
+    }
+
+	.fleurronde {
+        position: relative;
+        left: 7%;
+        Top: 135%;
+        width: 22%
+    }
+
+	.equipe {
+        margin-top: 90%;
+		padding-left: 20px
+    }
+
+	.feuille {
+        position: relative;
+        left: 150px;
+        top: 34px;
+		width: 50%;
+		margin-top: 10%;
+    }
+
+	 .nouscontacter {
+        margin-top: 20%;
+        margin-bottom: -30%;
+    }
+
+	#wpcf7-f563-p14-o1 {
+		width:100%;
+        padding-left: 10%;
+        position: relative;
+        bottom: 50px
+    }
+
+	#wpcf7-f563-p14-o1 input[type="text"],#wpcf7-f563-p14-o1 input[type="email"],#wpcf7-f563-p14-o1 textarea {
+		width: 90%;
+        height: 71px;
+        margin-top: 20px;
+	}
+
+	#wpcf7-f563-p14-o1 input[type="submit"] {
+        width: 198px;
+        height: 55px;
+        margin-left: 13%;
+        margin-top: 50px;
+        margin-bottom: -40px;
+    }
+
+	.fleurbourgeon {
+        position: relative;
+        left: -39%;
+        top: 533px;
+        z-index: 1;
+    }
+    
     /* troisieme page */
 
     .commander {
@@ -461,6 +594,5 @@ is_user_logged_in */
     #wpcf7-f596-p16-o5{
         margin-left: 9.5%;
 
-}
-
+    }
 }
