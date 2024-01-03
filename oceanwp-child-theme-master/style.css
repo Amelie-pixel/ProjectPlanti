@@ -232,7 +232,7 @@ form input[type=number] {
 
 .livraison {
     position: relative;
-    left: 3%;
+    left: 1%;
     font-size: 30px;
 }
 
@@ -240,7 +240,7 @@ form input[type=number] {
 	width:100%;
 	display:flex;
 	flex-direction:row;
-	column-gap:80px;
+	column-gap:85px;
 }
 
 #wpcf7-f596-p16-o5{
@@ -273,12 +273,12 @@ form input[type=number] {
 }
 
 .ligneVerticale {
-  position: relative;
-  transform: rotate(90deg);
-  top: 215px;
-  width: 470px;
-  height: 1px;
-  right: 240px;
+    position: relative;
+    transform: rotate(90deg);
+    top: 215px;
+    width: 470px;
+    height: 1px;
+    right: 240px;
 }
 
 .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
@@ -289,11 +289,63 @@ form input[type=number] {
 
 /* desktop */
 
-@media all and (min-width: 1024px) and (max-width: 1439px) {
+@media all and (min-width: 769px) and (max-width: 1600px) {
+
+	/* deuxieme page */
+
     .fleurronde {
+        left: 79%;
+        Top: 18%;
+        width: 50%;
+    }
+
+    #wpcf7-f563-p14-o1 {
+        padding-left: 4.5%;
+    }
+
+    #wpcf7-f563-p14-o1 input[type="submit"] {
+        margin-left: 9%;
+    }   
+
+    .fleurbourgeon {
+        left: 66%;
+    }
+
+    /* troisieme page */
+
+	.commander {
+        font-size: 38px;
+    }
+
+	.votrecommande {
+        left: 22.5%;
+    }
+
+	.icone {
+        width: 54.5%;
+        margin-left: -5%
+	}
+
+	.vosinformation {
+        left: 47%;
+    }
+
+	.livraison {
         position: relative;
-        left: 60%;
-        bottom: 50%;
+        left: 2%;
+    }
+
+    #wpcf7-f596-p16-o5{
+        width: 100%;
+        margin-left: 23%;
+    }
+
+	#wpcf7-f596-p16-o5 input[type="submit"] {
+        margin-left: 20.5%;
+    }
+
+	.ligneVerticale {
+        right: 230px;
     }
 }
 
