@@ -45,8 +45,8 @@ p {
     color: white;
 }
 
-#site-navigation-wrap .dropdown-menu >li >a:hover, .oceanwp-mobile-menu-icon a:hover, #searchform-header-replace-close:hover {
-    color: #DC9F96;
+#site-navigation-wrap .dropdown-menu >li >a:hover{
+color: #DC9F96;
 }
 
 /* premiere page */
