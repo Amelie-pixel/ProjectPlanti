@@ -38,15 +38,16 @@ p {
 
 #menu-item-18 {
     background-color: #DC9F96;
-    padding: 0 29px;
+
 }
 
 #menu-item-18 .text-wrap {
     color: white;
+    padding: 0 29px;
 }
 
-#site-navigation-wrap .dropdown-menu >li >a:hover{
-color: #DC9F96;
+.MentionLegale {
+    margin-left: 47.5%;
 }
 
 /* premiere page */
@@ -290,6 +291,11 @@ form input[type=number] {
 /* desktop */
 
 @media all and (min-width: 769px) and (max-width: 1600px) {
+   /* body */
+
+   .MentionLegale {
+        margin-left: 46.5%;
+    }
 
 	/* deuxieme page */
 
@@ -352,6 +358,12 @@ form input[type=number] {
 /* tablette*/
 
 @media (max-width: 769px) {
+
+    /* body */
+
+    .MentionLegale {
+        margin-left: 43%;
+    }
 
     /* premiere page */
 
@@ -481,6 +493,12 @@ form input[type=number] {
 /* telephone */
 
 @media (max-width: 481px) {
+
+    /* body */
+
+    .MentionLegale {
+        margin-left: 34%;
+    }
 
     /* premiere page */
 
